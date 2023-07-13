@@ -1,0 +1,271 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* fondo*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-bottom: 3em;
+    background-color: rgb(26, 168, 138);
+    
+}
+   /* titulo*/
+h1 {
+    text-align: left;
+    color: rgb(26, 168, 138);
+    
+    
+}
+/* forma de lista*/
+ul li {
+    display: inline-block;
+    
+}
+/*texto categorias */
+ul li a {
+    color: rgb(110, 79, 245);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+.contenedor-categorias {
+    background-color: rgb(221, 224, 47);
+   
+}
+
+ul li a:hover{
+    background-color:rgb(166, 168, 167);/* color resaltado nav*/ 
+}
+.titulo {
+    background-color: rgb(180, 22, 22);
+}
+
+.hh img{
+width: auto;
+
+}
+
+
+footer {
+   
+    background-color: black;
+    color: aliceblue;
+    padding:  1em 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+   
+  }
+  footer a{
+    text-decoration: none;
+    color:rgb(14, 185, 148);
+  }
+
+
+
+  .carousel-inner{
+    margin-top: 0px;
+
+
+
+  }
+  .carousel-inner{
+    height: 85vh;
+
+
+  }
+
+
+  
+
+/* comienzo css servicios*/  
+
+
+.contenedor-de-listas {
+    display: flex;
+    padding-top: 100px;
+
+}
+
+.list1 { 
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    width: 33%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.list1 ol{ 
+    list-style: none; 
+    
+    
+}
+
+
+.list2 {
+    background-color:rgb(69, 218, 185);
+    margin-left: 100px;
+    width: 33%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.list2 ol{ 
+    list-style: none; 
+    
+    
+}
+
+
+.list3 {  
+    background-color: rgb(255, 255, 255);
+    margin-left: 100px;
+    width: 33%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.list3 ol{ 
+    list-style: none;
+    
+}
+
+
+
+/* comienzo css agencia*/
+
+
+.imagen-agencia {
+display: flex;
+justify-content: center;
+align-items:flex-start ; 
+margin-top: 20px;
+
+
+}
+
+.fotoagencia {
+    width: 700px;
+    margin-left: 0;
+    margin-right: 20px;
+    
+    }    
+    
+    
+    .textoh2{
+        color:white;
+        margin-left: 20px;
+        margin-right:110px;
+        margin-top: 60px;
+        text-align:left;
+        
+    }
+
+
+
+/* comienzo css portfolio*/
+
+.imagenjuntas {
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-left: 60px;
+}
+.lalo{
+    width: 200px;
+}
+
+
+/* comienzo css equipo*/
+
+
+
+.equipodetrabajo {
+    display: flex;
+justify-content: center;
+align-items:flex-start ; 
+
+
+    
+}
+
+.persona1{
+    color: white;
+    text-align: center;
+    margin: auto;
+    
+    
+    
+}
+.per1 {
+    padding-top: 40px;
+    width: 350px; 
+}
+
+.persona2{
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+}
+.per2 {
+    padding-top: 40px;
+    width: 350px;
+}
+
+.persona3{
+    color: white;
+    margin: auto;
+    text-align: center;
+    
+}
+.per3 {
+    padding-top: 40px;
+    width: 350px;
+}
+
+
+/* comienzo css contacto*/
+
+.contenedorform {
+width: 50%;
+padding-left: 10%;
+
+}
+    
+
+
+@media (max-width: 480px) {
+.contenedorform {
+display:block;
+    width: 80%;
+
+}
+}
+
+@media (max-width: 480px) {
+    .cambiarcarruseltamaño{
+padding-bottom: 20px;
+        width: 200%;
+   
+} 
+    
+}    
+
+
+.cambiarcarruseltamaño {
+    width: 100%;
+}
+
+   
+
+
+
+
+
+    
