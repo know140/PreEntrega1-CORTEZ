@@ -183,13 +183,18 @@ margin-top: 20px;
 
  
 .contenido--img{
-    max-width: 100%; 
+    width: 100%; 
     margin-bottom: 2%; 
-    flex: 0 0 auto;  
-    display: flex;
-    min-height: calc (20px);
-
+    
 }
+
+
+
+
+
+
+
+
 
 .footerchico footer{
     position: fixed;
