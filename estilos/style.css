@@ -282,9 +282,18 @@ align-items:flex-start ;
 
 .contenedorform {
 width: 50%;
-padding-left: 10%;
 
 }
+.contenedorform  {
+justify-content: center;
+align-items: center;
+
+margin: auto;
+
+
+
+}
+
     
 
 /* formulario*/  
