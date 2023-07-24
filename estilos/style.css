@@ -148,18 +148,18 @@ footer {
 
 
 /* comienzo css agencia*/
+.agencia--img{
+    width: 50%; 
+    margin-bottom: 2%; 
+    
+}
 
-.contenedoragencia {
-    
-    
-    background-color: blue;
-    
+.agen{
+   max-width: 100%;
+}
 
-  }
-  
-  
-  
-  .footerchicoagencia{
+
+.footeragencia footer{
     position: fixed;
   bottom: 0;
   width: 100%;
@@ -168,9 +168,11 @@ footer {
     position:relative;
     bottom: 0%;
     width: 100%;
-  }
+      
+    
+}
   
-
+  
 
 
 /* comienzo css portfolio*/
