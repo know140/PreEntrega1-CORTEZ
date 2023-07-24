@@ -149,32 +149,27 @@ footer {
 
 /* comienzo css agencia*/
 
-
-.imagen-agencia {
-display: flex;
-justify-content: center;
-align-items:flex-start ; 
-margin-top: 20px;
-
-
-}
-
-.fotoagencia {
-    width: 700px;
-    margin-left: 0;
-    margin-right: 20px;
-    
-    }    
+.contenedoragencia {
     
     
-    .textoh2{
-        color:white;
-        margin-left: 20px;
-        margin-right:110px;
-        margin-top: 60px;
-        text-align:left;
-        
-    }
+    background-color: blue;
+    
+
+  }
+  
+  
+  
+  .footerchicoagencia{
+    position: fixed;
+  bottom: 0;
+  width: 100%;
+   padding:  1em 0;
+    text-align: center;
+    position:relative;
+    bottom: 0%;
+    width: 100%;
+  }
+  
 
 
 
