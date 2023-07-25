@@ -162,10 +162,29 @@ footer {
     max-width: 100%;
 }
 
+.agencia-texto{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 
+@media (max-width: 769px) {
+    .agencia-texto{
+        padding-top: 5%;
+        
+        
+    
+    }
+    }
 
+@media (max-width: 300px) {
+.footerag{
+    position: relative;
+    
 
+}
+}
   
   
 
