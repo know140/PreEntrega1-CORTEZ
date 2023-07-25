@@ -32,32 +32,18 @@ ul li a {
     padding: 10px;
     text-decoration: none;
 }
-.contenedor-categorias {
-    background-color: rgb(221, 224, 47);
+
    
-}
 
 ul li a:hover{
-    background-color:rgb(166, 168, 167);/* color resaltado nav*/ 
-}
-.titulo {
-    background-color: rgb(180, 22, 22);
+    background-color:rgb(121, 223, 172);/* color resaltado nav*/ 
 }
 
-.hh img{
-width: auto;
 
-}
 
-@media (max-width: 480px) {
-    .footer {
-            
-            width: 100%;
-            justify-items:end;
-            background-color: aqua;
-          }
-        }
 
+
+/* footer general*/  
 footer {
    
     background-color: black;
@@ -68,29 +54,30 @@ footer {
     bottom: 0%;
     width: 100%;
     
-   
   }
   footer a{
     text-decoration: none;
     color:rgb(14, 185, 148);
   }
 
-
+/* carousel*/ 
 
   .carousel-inner{
-    margin-top: 0px;
-    height: 700px;
+   
+    height: 100%;
 
+  }
+  
+  .carousel-inner{
+    height: 70vh;
 
 
   }
-  .carousel-inner{
-    height: 85vh;
 
-
-  }
-
-
+  .hh img{
+    height:1400px;
+    
+    }
   
 
 /* comienzo css servicios*/  
