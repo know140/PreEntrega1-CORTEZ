@@ -148,29 +148,24 @@ footer {
 
 
 /* comienzo css agencia*/
-.agencia--img{
-    width: 50%; 
-    margin-bottom: 2%; 
-    
-}
-
-.agen{
-   max-width: 100%;
-}
 
 
-.footeragencia footer{
-    position: fixed;
-  bottom: 0;
-  width: 100%;
-   padding:  1em 0;
+
+
+@media (max-width: 480px) {
+.agencia-texto{
     text-align: center;
-    position:relative;
-    bottom: 0%;
-    width: 100%;
-      
-    
+    max-width: 100%;
 }
+}
+.agen{
+    max-width: 100%;
+}
+
+
+
+
+
   
   
 
@@ -178,30 +173,55 @@ footer {
 /* comienzo css portfolio*/
 
 
- 
-.contenido--img{
-    width: 100%; 
-    margin-bottom: 2%; 
+ .paratamañogrande{
+    display: flex;
+    
+    padding:1%;
+ }
+
+@media (max-width: 1440px) {
+    .contenido-imagenes{
+       
+        display: flex;
+        flex-wrap: wrap;
+        
+        align-items: center;   
+        
+    }
+}
+
+@media (max-width: 780px) {
+    .contenido-imagenes{
+       
+        display: flex;
+         flex-direction: column;
+        align-items: center;
+        
+           
+        
+    }
+}
+
+.contenido-imagenes img{
+    max-width:33%;
+    align-items: center;
+    display: flex;
+    
     
 }
 
-
-
-
-
-
-
-
+ 
 
 .footerchico footer{
-    position: fixed;
-  bottom: 0;
+    
+  
   width: 100%;
-   padding:  1em 0;
+   
     text-align: center;
     position:relative;
     bottom: 0%;
     width: 100%;
+    margin-top: auto;
     
     
     
@@ -209,22 +229,45 @@ footer {
 
   
 
-
-
-
         
 /* comienzo css equipo*/
 
 
+@media (max-width: 780px) {
+    .equipodetrabajo{
+        display: flex;
+        flex-direction: column;
+        
+        
+        color:rgb(17, 241, 17);
+    }
+}
+
+.foterequipo{
+    position: relative;
+    margin-top: auto;
+}
 
 .equipodetrabajo {
     display: flex;
-justify-content: center;
-align-items:flex-start ; 
-
-
+        width: 100%; 
+        margin-bottom: 2%; 
+        color:blue;
+        
+       
+    }
+    .equipodetrabajo h3 {
     
-}
+       color:rgb(0, 0, 0);
+       
+    }
+
+    .equipodetrabajo p {
+    
+        color:rgb(0, 0, 0);
+        
+     }
+
 
 .persona1{
     color: white;
