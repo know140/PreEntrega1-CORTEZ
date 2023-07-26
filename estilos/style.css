@@ -89,8 +89,10 @@ footer {
 @media (min-width: 790px) {
 .contenedor-de-listas {
     display: flex;
-    justify-content: center;
- max-width: 200%;
+    
+    align-content: space-around;
+    
+ 
 background-color: rgb(0, 0, 0);
  text-align: center;
  
@@ -103,7 +105,7 @@ background-color: rgb(0, 0, 0);
 
 .list1 { 
     width: 100%;
-   margin-right:  5%;
+    margin:0%;
     color: rgb(255, 255, 255);
     
 
@@ -124,7 +126,7 @@ padding: 10%;
 
 .list2 { 
     width: 100%;
-    
+    margin:0%;
     color: rgb(255, 255, 255);
 
 }
@@ -142,7 +144,7 @@ padding: 10%;
 }
 .list3 { 
     width: 100%;
-    margin-left: 5%;
+    margin:0%;
     color: rgb(255, 255, 255);
     
 
