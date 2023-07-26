@@ -321,7 +321,7 @@ max-width: 100%;
         flex-direction: column;
         
         
-        color:rgb(17, 241, 17);
+        
     }
 }
 
@@ -402,14 +402,14 @@ width: 50%;
 justify-content: center;
 align-items: center;
 margin: auto;
-padding-top: 3%;
+padding-top: 10%;
 padding-bottom: 2%;
 }
 
     
 
 /* formulario*/  
-@media (max-width: 480px) {
+@media (max-width: 790px) {
 .contenedorform {
 display:block;
     width: 80%;
