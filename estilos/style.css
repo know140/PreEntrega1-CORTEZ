@@ -82,17 +82,20 @@ footer {
 
 /* comienzo css servicios*/  
 
-
+.contenedor-de-listas{
+    background-color: black;
+}
 @media (min-width: 790px) {
 .contenedor-de-listas {
     display: flex;
     justify-content: center;
  max-width: 200%;
-
+background-color: rgb(0, 0, 0);
  text-align: center;
  
  padding: 10%;
  padding-bottom: 20%;
+ 
  
 }  
 }
@@ -101,7 +104,7 @@ footer {
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
-    
+    color: rgb(255, 255, 255);
     
 
 }
@@ -110,7 +113,7 @@ footer {
     .list1{
         flex-direction: column;
 
-
+        background-color: rgb(0, 0, 0);
 align-items: center;
 text-align: center;
 padding: 5%;
@@ -123,14 +126,14 @@ padding: 5%;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
-    
+    color: rgb(255, 255, 255);
 
 }
 
 @media (max-width: 790px) {
     .list2{
         flex-direction: column;
-
+        background-color: rgb(0, 0, 0);
 
 align-items: center;
 text-align: center;
@@ -142,21 +145,21 @@ padding: 5%;
     width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
-    
+    color: rgb(255, 255, 255);
     
 
 }
 
-@media (max-width: 790px) {
+@media (max-width: 769px) {
     .list3{
         display: flex;
         flex-direction: column;
         margin-bottom: 22%; 
-
+        background-color: rgb(0, 0, 0);
 align-items: center;
 text-align: center;
-padding: 5%;
-padding-bottom: 50px;
+
+padding-bottom: 30px;
 max-width: 100%;
 
     }
