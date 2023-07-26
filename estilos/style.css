@@ -60,24 +60,20 @@ footer {
     color:rgb(14, 185, 148);
   }
 
+
+
+
+
+
 /* carousel*/ 
 
-  .carousel-inner{
-   
-    height: 100%;
 
+  
+  .carousel img {
+    height: 85vh;
+    width: 1440px;
   }
   
-  .carousel-inner{
-    height: 70vh;
-
-
-  }
-
-  .hh img{
-    height:1400px;
-    
-    }
   
 
 /* comienzo css servicios*/  
