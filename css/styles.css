@@ -15,7 +15,7 @@ body {
 /* titulo*/
 h1 {
   text-align: left;
-  color: rgb(26, 168, 138);
+  color: rgb(14, 185, 148);
 }
 
 /* forma de lista*/
@@ -25,7 +25,7 @@ ul li {
 
 /*texto categorias */
 ul li a {
-  color: rgb(37, 37, 37);
+  color: black;
   display: block;
   padding: 10px;
   text-decoration: none;
@@ -38,12 +38,15 @@ ul li a:hover {
 /* footer general*/
 footer {
   background-color: black;
-  color: aliceblue;
   padding: 1em 0;
   text-align: center;
   position: absolute;
   bottom: 0%;
   width: 100%;
+}
+
+footer p {
+  color: rgb(255, 255, 255);
 }
 
 footer a {
