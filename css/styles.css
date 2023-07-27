@@ -1,4 +1,36 @@
 @charset "UTF-8";
+.per1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  height: 100%;
+  margin: auto;
+  transition: 1s;
+}
+
+.per2:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  height: 100%;
+  margin: auto;
+  transition: 1s;
+}
+
+.per3:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  height: 100%;
+  margin: auto;
+  transition: 1s;
+}
+
+.paratamañogrande:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  height: 100%;
+  margin: auto;
+  transition: 1s;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -354,29 +386,6 @@ footer a {
     display: block;
     width: 80%;
   }
-}
-.per1:hover {
-  transform: scale(1.1);
-  transition: 1s;
-  height: 100%;
-  margin: auto;
-  transition: 1s;
-}
-
-.per2:hover {
-  transform: scale(1.1);
-  transition: 1s;
-  height: 100%;
-  margin: auto;
-  transition: 1s;
-}
-
-.per3:hover {
-  transform: scale(1.1);
-  transition: 1s;
-  height: 100%;
-  margin: auto;
-  transition: 1s;
 }
 
 /*# sourceMappingURL=styles.css.map */

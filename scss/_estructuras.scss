@@ -305,7 +305,6 @@ margin-bottom: 0%;
 
 /* comienzo css portfolio*/
 
-
  .paratamañogrande{
     display: flex;
     
@@ -317,7 +316,7 @@ margin-bottom: 0%;
 
 @media (max-width: 1440px) {
     .contenido-imagenes{
-       
+        
         display: flex;
         flex-wrap: wrap;
         align-items: center;   
@@ -327,7 +326,7 @@ margin-bottom: 0%;
 
 @media (max-width: 780px) {
     .contenido-imagenes{
-       
+        
         display: flex;
          flex-direction: column;
         align-items: center;      
@@ -336,6 +335,7 @@ margin-bottom: 0%;
 
 .contenido-imagenes img{
     max-width:33%;
+    
 }
 
 

@@ -21,3 +21,8 @@
     @include img-hover-grande-vuelta;
     @include img-hover-grande-ida;
 }
+
+.paratamañogrande:hover{
+    @include img-hover-grande-vuelta;
+    @include img-hover-grande-ida;
+}
