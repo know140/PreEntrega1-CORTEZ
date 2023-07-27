@@ -1,0 +1,25 @@
+.per1:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  height: 100%;
+  margin: auto;
+  transition: 1s;
+}
+
+.per2:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  height: 100%;
+  margin: auto;
+  transition: 1s;
+}
+
+.per3:hover {
+  transform: scale(1.1);
+  transition: 1s;
+  height: 100%;
+  margin: auto;
+  transition: 1s;
+}
+
+/*# sourceMappingURL=mixin.css.map */

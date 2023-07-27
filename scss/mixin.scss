@@ -1,0 +1,23 @@
+@mixin img-hover-grande-ida{
+    margin:auto;
+    transition: 1s;
+  }
+@mixin img-hover-grande-vuelta{
+   transform: scale(1.1);
+   transition: 1s;
+   height: 100%;   
+}
+
+
+.per1:hover{
+    @include img-hover-grande-vuelta;  
+    @include img-hover-grande-ida;
+}
+.per2:hover{
+    @include img-hover-grande-vuelta;  
+    @include img-hover-grande-ida;
+}
+.per3:hover{
+    @include img-hover-grande-vuelta;
+    @include img-hover-grande-ida;
+}
