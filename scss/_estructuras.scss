@@ -92,7 +92,7 @@ width: 725px;
 /* comienzo css servicios*/  
 
 .contenedor-de-listas{
-    background-color: black;
+    background-color: $color-secundario-negro;
     
 }
 @media (min-width: 790px) {
@@ -102,7 +102,7 @@ width: 725px;
     
     
  
-background-color: rgb(0, 0, 0);
+background-color: $color-secundario-negro;
  text-align: center;
  
  padding: 15%;
@@ -116,7 +116,7 @@ background-color: rgb(0, 0, 0);
     
     width: 100%;
     margin:0%;
-    color: rgb(255, 255, 255);
+    color: $color-terciario-blanco;
     
 
 }
@@ -126,7 +126,7 @@ background-color: rgb(0, 0, 0);
     width: 100;
     margin-right: 50px;
     
-    color: rgb(255, 255, 255);
+    color: $color-terciario-blanco;
 }
 
 }
@@ -136,7 +136,7 @@ background-color: rgb(0, 0, 0);
     .list1{
         flex-direction: column;
 
-        background-color: rgb(0, 0, 0);
+        background-color: $color-secundario-negro;
 align-items: center;
 text-align: center;
 padding: 10%;
@@ -148,14 +148,14 @@ padding: 10%;
 .list2 { 
     width: 100%;
     margin:0%;
-    color: rgb(255, 255, 255);
+    color: $color-terciario-blanco;
 
 }
 
 @media (max-width: 790px) {
     .list2{
         flex-direction: column;
-        background-color: rgb(0, 0, 0);
+        background-color: $color-secundario-negro;
 
 align-items: center;
 text-align: center;
@@ -166,7 +166,7 @@ padding: 10%;
 .list3 { 
     width: 100%;
     margin:0%;
-    color: rgb(255, 255, 255);
+    color: $color-terciario-blanco;
     
 
 }
@@ -176,7 +176,7 @@ padding: 10%;
         width: 100;
         margin-left: 50px;
         
-        color: rgb(255, 255, 255);
+        color: $color-terciario-blanco;
     }
     
     }
@@ -186,7 +186,7 @@ padding: 10%;
         display: flex;
         flex-direction: column;
         margin-bottom: 22%; 
-        background-color: rgb(0, 0, 0);
+        background-color: $color-secundario-negro;
         align-items: center;
         text-align: center;
         padding: 10%;
@@ -202,17 +202,17 @@ padding: 10%;
 .list1 i{
    font-size: 40px;
    padding-bottom: 30px;
-   color: rgb(14, 185, 148);
+   color: $color-primario-verde;
 }
 .list2 i{
     font-size: 40px;
     padding-bottom: 30px;
-    color: rgb(14, 185, 148);
+    color: $color-primario-verde;
  }
  .list3 i{
     font-size: 40px;
     padding-bottom: 30px;
-    color: rgb(14, 185, 148);
+    color: $color-primario-verde;
  }
   
 
@@ -402,19 +402,19 @@ margin-bottom: 0%;
 
     .equipodetrabajo h3 {
     
-       color:rgb(0, 0, 0);
+       color:$color-secundario-negro;
        
     }
 
     .equipodetrabajo p {
     
-        color:rgb(0, 0, 0);
+        color:$color-secundario-negro;
         
      }
 
 
 .persona1{
-    color: white;
+    color: $color-terciario-blanco;
     text-align: center;
     margin: auto;
     
@@ -428,7 +428,7 @@ margin-bottom: 0%;
 }
 
 .persona2{
-    color: white;
+    color: $color-terciario-blanco;
     margin: auto;
     text-align: center;
     
@@ -439,7 +439,7 @@ margin-bottom: 0%;
 }
 
 .persona3{
-    color: white;
+    color: $color-terciario-blanco;
     margin: auto;
     text-align: center;
     

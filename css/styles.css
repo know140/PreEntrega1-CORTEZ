@@ -111,7 +111,7 @@ footer a {
 @media (min-width: 790px) {
   .contenedor-de-listas {
     display: flex;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     text-align: center;
     padding: 15%;
     padding-bottom: 20%;
@@ -133,7 +133,7 @@ footer a {
 @media (max-width: 790px) {
   .list1 {
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     align-items: center;
     text-align: center;
     padding: 10%;
@@ -148,7 +148,7 @@ footer a {
 @media (max-width: 790px) {
   .list2 {
     flex-direction: column;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     align-items: center;
     text-align: center;
     padding: 10%;
@@ -172,7 +172,7 @@ footer a {
     display: flex;
     flex-direction: column;
     margin-bottom: 22%;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     align-items: center;
     text-align: center;
     padding: 10%;
@@ -328,15 +328,15 @@ footer a {
 }
 
 .equipodetrabajo h3 {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .equipodetrabajo p {
-  color: rgb(0, 0, 0);
+  color: black;
 }
 
 .persona1 {
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   margin: auto;
 }
@@ -347,7 +347,7 @@ footer a {
 }
 
 .persona2 {
-  color: white;
+  color: rgb(255, 255, 255);
   margin: auto;
   text-align: center;
 }
@@ -358,7 +358,7 @@ footer a {
 }
 
 .persona3 {
-  color: white;
+  color: rgb(255, 255, 255);
   margin: auto;
   text-align: center;
 }
