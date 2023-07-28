@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* footer general*/
 footer {
-  background-color: black;
+  background-color: rgb(24, 23, 23);
   padding: 1em 0;
   text-align: center;
   position: absolute;
@@ -15,7 +15,7 @@ footer p {
 
 footer a {
   text-decoration: none;
-  color: rgb(236, 98, 43);
+  color: rgb(43, 230, 189);
 }
 
 /*footer servicios*/
@@ -94,7 +94,7 @@ body {
 /* titulo*/
 h1 {
   text-align: left;
-  color: rgb(236, 98, 43);
+  color: rgb(43, 230, 189);
 }
 
 /* forma de lista*/
@@ -104,14 +104,14 @@ ul li {
 
 /*texto categorias */
 ul li a {
-  color: black;
+  color: rgb(24, 23, 23);
   display: block;
   padding: 10px;
   text-decoration: none;
 }
 
 ul li a:hover {
-  background-color: rgb(121, 223, 172); /* color resaltado nav*/
+  background-color: rgb(163, 245, 220); /* color resaltado nav*/
 }
 
 /* carousel*/
@@ -133,13 +133,13 @@ ul li a:hover {
 
 /* comienzo css servicios*/
 .contenedor-de-listas {
-  background-color: black;
+  background-color: rgb(24, 23, 23);
 }
 
 @media (min-width: 790px) {
   .contenedor-de-listas {
     display: flex;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     text-align: center;
     padding: 15%;
     padding-bottom: 20%;
@@ -161,7 +161,7 @@ ul li a:hover {
 @media (max-width: 790px) {
   .list1 {
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     align-items: center;
     text-align: center;
     padding: 10%;
@@ -176,7 +176,7 @@ ul li a:hover {
 @media (max-width: 790px) {
   .list2 {
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     align-items: center;
     text-align: center;
     padding: 10%;
@@ -200,7 +200,7 @@ ul li a:hover {
     display: flex;
     flex-direction: column;
     margin-bottom: 22%;
-    background-color: black;
+    background-color: rgb(24, 23, 23);
     align-items: center;
     text-align: center;
     padding: 10%;
@@ -211,19 +211,19 @@ ul li a:hover {
 .list1 i {
   font-size: 40px;
   padding-bottom: 30px;
-  color: rgb(236, 98, 43);
+  color: rgb(43, 230, 189);
 }
 
 .list2 i {
   font-size: 40px;
   padding-bottom: 30px;
-  color: rgb(236, 98, 43);
+  color: rgb(43, 230, 189);
 }
 
 .list3 i {
   font-size: 40px;
   padding-bottom: 30px;
-  color: rgb(236, 98, 43);
+  color: rgb(43, 230, 189);
 }
 
 .list1 ol {
@@ -332,11 +332,11 @@ ul li a:hover {
 }
 
 .equipodetrabajo h3 {
-  color: black;
+  color: rgb(24, 23, 23);
 }
 
 .equipodetrabajo p {
-  color: black;
+  color: rgb(24, 23, 23);
 }
 
 .persona1 {
