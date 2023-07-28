@@ -37,34 +37,6 @@ ul li a:hover{
     background-color:$color-alternativo-verdeclaro;/* color resaltado nav*/ 
 }
 
-
-
-
-
-/* footer general*/  
-footer {
-    background-color:$color-secundario-negro;
-    padding:  1em 0;
-    text-align: center;
-    position:absolute;
-    bottom: 0%;
-    width: 100%;
-    
-  }
-footer p{
-    color: $color-terciario-blanco;
-}
-  
-  footer a{
-    text-decoration: none;
-    color:$color-primario-verde;
-  }
-
-
-
-
-
-
 /* carousel*/ 
 
 
@@ -99,9 +71,6 @@ width: 725px;
 .contenedor-de-listas {
     display: flex;
     
-    
-    
- 
 background-color: $color-secundario-negro;
  text-align: center;
  
@@ -231,10 +200,6 @@ padding: 10%;
       
 }
 
-.foterservicios{
-    position: relative;
-    margin-top: auto;
-}
 /* comienzo css agencia*/
 
 @media (min-width: 789px) {
@@ -291,14 +256,6 @@ margin-bottom: 0%;
 }
 
 
-@media (max-width: 300px) {
-.footerag{
-    position: relative;
-    
-    
-
-}
-}
   
   
 
@@ -349,26 +306,7 @@ margin-bottom: 0%;
 }
 }
 
- 
-
-.footerchico footer{
-    
-  
-  width: 100%;
-   
-    text-align: center;
-    position:relative;
-    bottom: 0%;
-    width: 100%;
-    margin-top: auto;
-    
-    
-    
-}
-
-  
-
-        
+       
 /* comienzo css equipo*/
 
 
@@ -381,13 +319,6 @@ margin-bottom: 0%;
         
     }
 }
-
-.foterequipo{
-    position: relative;
-    margin-top: auto;
-}
-
-
 
 
 .equipodetrabajo {
@@ -411,7 +342,6 @@ margin-bottom: 0%;
         color:$color-secundario-negro;
         
      }
-
 
 .persona1{
     color: $color-terciario-blanco;

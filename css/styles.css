@@ -1,4 +1,51 @@
 @charset "UTF-8";
+/* footer general*/
+footer {
+  background-color: black;
+  padding: 1em 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+footer p {
+  color: rgb(255, 255, 255);
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(236, 98, 43);
+}
+
+/*footer servicios*/
+.foterservicios {
+  position: relative;
+  margin-top: auto;
+}
+
+/*footer agencia*/
+@media (max-width: 300px) {
+  .footerag {
+    position: relative;
+  }
+}
+/* footer portfolio*/
+.footerchico footer {
+  width: 100%;
+  text-align: center;
+  position: relative;
+  bottom: 0%;
+  width: 100%;
+  margin-top: auto;
+}
+
+/*footer equipo*/
+.foterequipo {
+  position: relative;
+  margin-top: auto;
+}
+
 .per1:hover {
   transform: scale(1.1);
   transition: 1s;
@@ -47,7 +94,7 @@ body {
 /* titulo*/
 h1 {
   text-align: left;
-  color: rgb(14, 185, 148);
+  color: rgb(236, 98, 43);
 }
 
 /* forma de lista*/
@@ -65,25 +112,6 @@ ul li a {
 
 ul li a:hover {
   background-color: rgb(121, 223, 172); /* color resaltado nav*/
-}
-
-/* footer general*/
-footer {
-  background-color: black;
-  padding: 1em 0;
-  text-align: center;
-  position: absolute;
-  bottom: 0%;
-  width: 100%;
-}
-
-footer p {
-  color: rgb(255, 255, 255);
-}
-
-footer a {
-  text-decoration: none;
-  color: rgb(14, 185, 148);
 }
 
 /* carousel*/
@@ -183,19 +211,19 @@ footer a {
 .list1 i {
   font-size: 40px;
   padding-bottom: 30px;
-  color: rgb(14, 185, 148);
+  color: rgb(236, 98, 43);
 }
 
 .list2 i {
   font-size: 40px;
   padding-bottom: 30px;
-  color: rgb(14, 185, 148);
+  color: rgb(236, 98, 43);
 }
 
 .list3 i {
   font-size: 40px;
   padding-bottom: 30px;
-  color: rgb(14, 185, 148);
+  color: rgb(236, 98, 43);
 }
 
 .list1 ol {
@@ -208,11 +236,6 @@ footer a {
 
 .list3 ol {
   list-style: none;
-}
-
-.foterservicios {
-  position: relative;
-  margin-top: auto;
 }
 
 /* comienzo css agencia*/
@@ -259,11 +282,6 @@ footer a {
     margin-right: 8%;
   }
 }
-@media (max-width: 300px) {
-  .footerag {
-    position: relative;
-  }
-}
 /* comienzo css portfolio*/
 .paratamañogrande {
   display: flex;
@@ -298,15 +316,6 @@ footer a {
     display: flex;
   }
 }
-.footerchico footer {
-  width: 100%;
-  text-align: center;
-  position: relative;
-  bottom: 0%;
-  width: 100%;
-  margin-top: auto;
-}
-
 /* comienzo css equipo*/
 @media (max-width: 780px) {
   .equipodetrabajo {
@@ -314,11 +323,6 @@ footer a {
     flex-direction: column;
   }
 }
-.foterequipo {
-  position: relative;
-  margin-top: auto;
-}
-
 .equipodetrabajo {
   justify-content: center;
   display: flex;
