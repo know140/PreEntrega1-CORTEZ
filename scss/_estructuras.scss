@@ -10,7 +10,13 @@ body {
     min-height: 100vh;
   }
     
+.navbar-brand b{
+color: $color-alternativo-gris;
 
+}
+.container-fluid{
+    color: $color-alternativo-gris;
+}
    /* titulo*/
 h1 {
     text-align: left;

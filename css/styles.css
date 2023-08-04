@@ -91,6 +91,14 @@ body {
   min-height: 100vh;
 }
 
+.navbar-brand b {
+  color: rgba(66, 66, 66, 0.76);
+}
+
+.container-fluid {
+  color: rgba(66, 66, 66, 0.76);
+}
+
 /* titulo*/
 h1 {
   text-align: left;
