@@ -125,7 +125,7 @@ ul li a:hover {
 /* carousel*/
 .carousel img {
   height: 85vh;
-  width: 1440px;
+  width: 1540px;
 }
 
 @media (max-width: 480px) {
