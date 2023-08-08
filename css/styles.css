@@ -389,14 +389,14 @@ ul li a:hover {
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding-top: 10%;
-  padding-bottom: 2%;
+  padding-top: 2%;
 }
 
 @media (max-width: 790px) {
   .contenedorform {
     display: block;
     width: 80%;
+    padding-top: 10%;
   }
 }
 .btn {
