@@ -208,27 +208,32 @@ padding: 10%;
 
 /* comienzo css agencia*/
 
-@media (min-width: 789px) {
+@media (min-width: 769px) {
 .agen{
     width: 750px;
-    padding-left: 10%;
+    padding-left: 3%;
+ 
 }
 }
-@media (max-width: 789px) {
+@media (max-width: 769px) {
 .agen{
-    width: 100%;
-
-    
+    width: 100%;   
 }
 }
 
-@media (min-width: 789px) {
+@media (min-width: 769px) {
+    .agen{
+        width: 480px;   
+    }
+    }
+
+@media (min-width: 769px) {
 .agencia-contenido{
 display: flex;
-padding-top: 15%;
+padding-top: 10%;
 
-height: 100vh;
-margin-bottom: 0%;
+height: 100%;
+margin-bottom: 5%;
 }
 }
 
