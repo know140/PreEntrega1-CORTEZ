@@ -208,59 +208,17 @@ padding: 10%;
 
 /* comienzo css agencia*/
 
-@media (min-width: 769px) {
-.agen{
-    width: 750px;
-    padding-left: 3%;
-    
- 
-}
-}
-@media (max-width: 769px) {
-.agen{
-    width: 100%;  
-    
-    
-}
-}
-
-@media (min-width: 769px) {
-    .agen{
-        width: 480px;   
-    }
-    }
-
-@media (min-width: 769px) {
-.agencia-contenido{
-display: flex;
-padding-top: 10%;
-
-height: 100%;
-margin-bottom: 5%;
-}
-}
 
 @media (max-width: 769px) {
+
 .agencia-contenido{
     display: flex;
     flex-direction: column;
-    
-    
     height: 100vh;
     margin-bottom: 0%;
     text-align: center;
-    
-}
-}
+   }
 
-.agencia-texto{
-    padding-top: 1%;
-    text-align:left;
-    margin-left: 3%;
-    margin-right: 7%;
-    
-}
-@media (max-width: 769px) {
 .agencia-texto{
     padding-top: 7%;
     text-align: center;
@@ -269,9 +227,24 @@ margin-bottom: 5%;
 }
 }
 
-
-  
-  
+@media (min-width: 769px) {
+       .agen{
+            width: 480px;
+            padding-left: 3%;   
+        }
+       .agencia-contenido{
+            display: flex;
+            padding-top: 10%; 
+            height: 100%;
+            margin-bottom: 5%;
+        } 
+        .agencia-texto{
+            padding-top: 0%;
+            text-align:left;
+            margin-left: 3%;
+            margin-right: 7%;
+        }
+    }
 
 
 /* comienzo css portfolio*/
@@ -320,76 +293,59 @@ margin-bottom: 5%;
 /* comienzo css equipo*/
 
 
-@media (max-width: 780px) {
+.equipodetrabajo h3 {
+    color:$color-alternativo-verdeoscuro;
+    }
+ .equipodetrabajo p {
+      color:$color-secundario-negro;
+     }
+
+@media (max-width: 767px) {
     .equipodetrabajo{
         display: flex;
         flex-direction: column;
-        
-        
-        
     }
 }
 
-
-.equipodetrabajo {
-    justify-content: center;
+@media (min-width: 768px) and (max-width: 991px) {
+    .equipodetrabajo{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .per1{
+        width: 550px;
+    }
+    .per2{
+        width: 550px;
+    }
+    .per3{
+        width: 550px;
+    }
+    
+  }
+  
+  @media (min-width: 992px) {
+    .equipodetrabajo {
+        justify-content: center;
+        display: flex;
         max-width: 100%; 
         margin-bottom: 30%; 
-       
         padding-top: 10%;
-       
-    }
-
-    .equipodetrabajo h3 {
-    
-       color:$color-secundario-negro;
-       
-    }
-
-    .equipodetrabajo p {
-    
-        color:$color-secundario-negro;
+        }
+        .per1{
+            width: 300px;
+        }
+        .per2{
+            width: 300px;
+        }
+        .per3{
+            width: 300px;
+        }
         
-     }
+  }
 
-.persona1{
-    color: $color-terciario-blanco;
-    text-align: center;
-    margin: auto;
     
-    
-    
-}
-.per1 {
-    padding-top: 40px;
-    width: 350px;
-    
-}
-
-.persona2{
-    color: $color-terciario-blanco;
-    margin: auto;
-    text-align: center;
-    
-}
-.per2 {
-    padding-top: 40px;
-    width: 350px;
-}
-
-.persona3{
-    color: $color-terciario-blanco;
-    margin: auto;
-    text-align: center;
-    
-}
-.per3 {
-    padding-top: 40px;
-    width: 350px;
-}
-
-
 /* comienzo css contacto*/
 
 .contenedorform {

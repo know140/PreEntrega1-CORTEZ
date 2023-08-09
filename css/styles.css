@@ -58,8 +58,8 @@ footer a {
   transform: scale(1.1);
   transition: 1s;
   height: 100%;
-  filter: brightness(1.4);
-  filter: contrast(1.4);
+  filter: brightness(1.2);
+  filter: contrast(1.2);
   margin: auto;
   transition: 1s;
 }
@@ -68,8 +68,8 @@ footer a {
   transform: scale(1.1);
   transition: 1s;
   height: 100%;
-  filter: brightness(1.4);
-  filter: contrast(1.4);
+  filter: brightness(1.2);
+  filter: contrast(1.2);
   margin: auto;
   transition: 1s;
 }
@@ -78,8 +78,8 @@ footer a {
   transform: scale(1.1);
   transition: 1s;
   height: 100%;
-  filter: brightness(1.4);
-  filter: contrast(1.4);
+  filter: brightness(1.2);
+  filter: contrast(1.2);
   margin: auto;
   transition: 1s;
 }
@@ -88,8 +88,8 @@ footer a {
   transform: scale(1.1);
   transition: 1s;
   height: 100%;
-  filter: brightness(1.4);
-  filter: contrast(1.4);
+  filter: brightness(1.2);
+  filter: contrast(1.2);
   margin: auto;
   transition: 1s;
 }
@@ -263,30 +263,6 @@ ul li a:hover {
 }
 
 /* comienzo css agencia*/
-@media (min-width: 769px) {
-  .agen {
-    width: 750px;
-    padding-left: 3%;
-  }
-}
-@media (max-width: 769px) {
-  .agen {
-    width: 100%;
-  }
-}
-@media (min-width: 769px) {
-  .agen {
-    width: 480px;
-  }
-}
-@media (min-width: 769px) {
-  .agencia-contenido {
-    display: flex;
-    padding-top: 10%;
-    height: 100%;
-    margin-bottom: 5%;
-  }
-}
 @media (max-width: 769px) {
   .agencia-contenido {
     display: flex;
@@ -295,20 +271,29 @@ ul li a:hover {
     margin-bottom: 0%;
     text-align: center;
   }
-}
-.agencia-texto {
-  padding-top: 1%;
-  text-align: left;
-  margin-left: 3%;
-  margin-right: 7%;
-}
-
-@media (max-width: 769px) {
   .agencia-texto {
     padding-top: 7%;
     text-align: center;
     margin-left: 8%;
     margin-right: 8%;
+  }
+}
+@media (min-width: 769px) {
+  .agen {
+    width: 480px;
+    padding-left: 3%;
+  }
+  .agencia-contenido {
+    display: flex;
+    padding-top: 10%;
+    height: 100%;
+    margin-bottom: 5%;
+  }
+  .agencia-texto {
+    padding-top: 0%;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 7%;
   }
 }
 /* comienzo css portfolio*/
@@ -346,61 +331,54 @@ ul li a:hover {
   }
 }
 /* comienzo css equipo*/
-@media (max-width: 780px) {
-  .equipodetrabajo {
-    display: flex;
-    flex-direction: column;
-  }
-}
-.equipodetrabajo {
-  justify-content: center;
-  display: flex;
-  max-width: 100%;
-  margin-bottom: 30%;
-  padding-top: 10%;
-}
-
 .equipodetrabajo h3 {
-  color: rgb(24, 23, 23);
+  color: rgb(43, 177, 137);
 }
 
 .equipodetrabajo p {
   color: rgb(24, 23, 23);
 }
 
-.persona1 {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  margin: auto;
+@media (max-width: 767px) {
+  .equipodetrabajo {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
-.per1 {
-  padding-top: 40px;
-  width: 350px;
+@media (min-width: 768px) and (max-width: 991px) {
+  .equipodetrabajo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .per1 {
+    width: 550px;
+  }
+  .per2 {
+    width: 550px;
+  }
+  .per3 {
+    width: 550px;
+  }
 }
-
-.persona2 {
-  color: rgb(255, 255, 255);
-  margin: auto;
-  text-align: center;
+@media (min-width: 992px) {
+  .equipodetrabajo {
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 30%;
+    padding-top: 10%;
+  }
+  .per1 {
+    width: 300px;
+  }
+  .per2 {
+    width: 300px;
+  }
+  .per3 {
+    width: 300px;
+  }
 }
-
-.per2 {
-  padding-top: 40px;
-  width: 350px;
-}
-
-.persona3 {
-  color: rgb(255, 255, 255);
-  margin: auto;
-  text-align: center;
-}
-
-.per3 {
-  padding-top: 40px;
-  width: 350px;
-}
-
 /* comienzo css contacto*/
 .contenedorform {
   width: 50%;
