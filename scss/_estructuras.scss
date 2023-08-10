@@ -368,6 +368,16 @@ display:block;
 
 }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contenedorform {
+        display:block;
+            width: 80%;
+            padding-top: 20%;
+        
+        }
+    }
+
 .btn{
 background-color:$color-alternativo-verdeclaro;
 color: $color-secundario-negro;
