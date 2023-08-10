@@ -9,10 +9,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
   }
-    
 .navbar-brand b{
 color: $color-alternativo-gris;
-
 }
 .container-fluid{
     color: $color-alternativo-gris;
@@ -20,9 +18,7 @@ color: $color-alternativo-gris;
    /* titulo*/
 h1 {
     text-align: left;
-    color:$color-primario-verde;
-    
-    
+    color:$color-primario-verde;   
 }
 /* forma de lista*/
 ul li {
@@ -30,42 +26,42 @@ ul li {
     
 }
 /*texto categorias */
+
 ul li a {
     color: $color-secundario-negro;
     display: block;
     padding: 10px;
     text-decoration: none;
 }
-
-   
-
 ul li a:hover{
     background-color:$color-alternativo-verdeclaro;/* color resaltado nav*/ 
 }
 
 /* carousel*/ 
 
-
-  
-  .carousel img {
-    height: 85vh;
-    width: 1540px;
-  }
-  
-
-@media (max-width: 480px) {
-    .yc{
-padding-top: 0px;
-height: 525px;
-width: 725px;
-
-} 
+@media (max-width: 767px){
+    .carousel img {
+        height: 85vh;
+        width: 690px;
+        } 
+}
+@media (min-width: 768px) and (max-width: 991px) {
+      
+        .carousel img {
+            height: 90vh;
+            width: 1390px;
+     } 
 
 }
-
-.cambiarcarruseltamaño {
-    width: 100%;
+@media (min-width: 992px){
+    .carousel img {
+        height: 98vh;
+        width: 1690px;
+      }
 }
+
+
+
 
 /* comienzo css servicios*/  
 
@@ -197,7 +193,6 @@ width: 725px;
 
 /* comienzo css agencia*/
 
-
 @media (max-width: 768px) {
 .agencia-contenido{
     display: flex;
@@ -284,22 +279,17 @@ width: 725px;
 }
 
 .contenido-imagenes img{
-    max-width:33%;
-    
+    max-width:33%;  
 }
-
-
 
 @media (max-width: 780px) {
 .contenido-imagenes img{
     max-width:100%;
     align-items: center;
     display: flex;
-    
 }
 }
-
-       
+      
 /* comienzo css equipo*/
 
 
@@ -352,12 +342,13 @@ width: 725px;
         .per3{
             width: 300px;
         }
-        
   }
-
     
 /* comienzo css contacto*/
-
+.btn{
+    background-color:$color-alternativo-verdeclaro;
+    color: $color-secundario-negro;
+    }
 .contenedorform {
 width: 50%;
 
@@ -382,13 +373,8 @@ display:block;
 @media (min-width: 768px) and (max-width: 991px) {
     .contenedorform {
         display:block;
-            width: 80%;
-            padding-top: 20%;
-        
+        width: 80%;
+        padding-top: 20%;
         }
     }
 
-.btn{
-background-color:$color-alternativo-verdeclaro;
-color: $color-secundario-negro;
-}

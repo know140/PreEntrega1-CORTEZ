@@ -142,22 +142,24 @@ ul li a:hover {
 }
 
 /* carousel*/
-.carousel img {
-  height: 85vh;
-  width: 1540px;
-}
-
-@media (max-width: 480px) {
-  .yc {
-    padding-top: 0px;
-    height: 525px;
-    width: 725px;
+@media (max-width: 767px) {
+  .carousel img {
+    height: 85vh;
+    width: 690px;
   }
 }
-.cambiarcarruseltamaño {
-  width: 100%;
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel img {
+    height: 90vh;
+    width: 1390px;
+  }
 }
-
+@media (min-width: 992px) {
+  .carousel img {
+    height: 98vh;
+    width: 1690px;
+  }
+}
 /* comienzo css servicios*/
 .contenedor-de-listas {
   background-color: rgb(24, 23, 23);
@@ -422,6 +424,11 @@ ul li a:hover {
   }
 }
 /* comienzo css contacto*/
+.btn {
+  background-color: rgb(163, 245, 220);
+  color: rgb(24, 23, 23);
+}
+
 .contenedorform {
   width: 50%;
 }
@@ -446,10 +453,6 @@ ul li a:hover {
     width: 80%;
     padding-top: 20%;
   }
-}
-.btn {
-  background-color: rgb(163, 245, 220);
-  color: rgb(24, 23, 23);
 }
 
 /*# sourceMappingURL=styles.css.map */
