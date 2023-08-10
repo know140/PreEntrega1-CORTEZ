@@ -70,93 +70,66 @@ width: 725px;
 /* comienzo css servicios*/  
 
 .contenedor-de-listas{
-    background-color: $color-secundario-negro;
-    
+    background-color: $color-secundario-negro; 
 }
-@media (min-width: 790px) {
-.contenedor-de-listas {
-    display: flex;
-    
-background-color: $color-secundario-negro;
- text-align: center;
- 
- padding: 15%;
- padding-bottom: 20%;
- 
- 
-}  
-}
-
 .list1 { 
-    
     width: 100%;
     margin:0%;
     color: $color-terciario-blanco;
-    
-
 }
-@media (min-width: 790px) {
-.list1 { 
-    
-    width: 100;
-    margin-right: 50px;
-    
-    color: $color-terciario-blanco;
-}
-
-}
-
-
-@media (max-width: 790px) {
-    .list1{
-        flex-direction: column;
-
-        background-color: $color-secundario-negro;
-align-items: center;
-text-align: center;
-padding: 10%;
-
-
-    }
-}
-
 .list2 { 
     width: 100%;
     margin:0%;
     color: $color-terciario-blanco;
-
-}
-
-@media (max-width: 790px) {
-    .list2{
-        flex-direction: column;
-        background-color: $color-secundario-negro;
-
-align-items: center;
-text-align: center;
-padding: 10%;
-
-    }
 }
 .list3 { 
     width: 100%;
     margin:0%;
-    color: $color-terciario-blanco;
-    
-
+    color: $color-terciario-blanco;  
 }
-@media (min-width: 790px) {
-    .list3 { 
-        
-        width: 100;
-        margin-left: 50px;
-        
-        color: $color-terciario-blanco;
+.list1 i{
+    font-size: 40px;
+    padding-bottom: 30px;
+    color: $color-primario-verde;
+ }
+ .list2 i{
+     font-size: 40px;
+     padding-bottom: 30px;
+     color: $color-primario-verde;
+  }
+  .list3 i{
+     font-size: 40px;
+     padding-bottom: 30px;
+     color: $color-primario-verde;
+  }
+   
+ .list1 ol{ 
+     list-style: none; 
+      
+ }
+ .list2 ol{ 
+     list-style: none; 
+       
+ }
+ .list3 ol{ 
+     list-style: none; 
+       
+ }
+ @media (max-width: 767px) {
+    .list1{
+        flex-direction: column;
+        background-color: $color-secundario-negro;
+        align-items: center;
+        text-align: center;
+        padding: 10%;
+     }
+     .list2{
+        flex-direction: column;
+        background-color: $color-secundario-negro;
+        align-items: center;
+        text-align: center;
+        padding: 10%;
     }
-    
-    }
-    
-@media (max-width: 769px) {
     .list3{
         display: flex;
         flex-direction: column;
@@ -165,46 +138,62 @@ padding: 10%;
         align-items: center;
         text-align: center;
         padding: 10%;
-        padding-bottom: 30px;
-        max-width: 100%;
-
+        padding-bottom: 50px;
+        
     }
+    }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contenedor-de-listas{
+    display: flex; 
+    flex-direction: column;
+    background-color: $color-secundario-negro;
+    text-align: center;
+}
+.list1 { 
+    font-size: 28px;
+    width: 100%;
+    
+    color: $color-terciario-blanco;
+}
+.list2 { 
+    font-size: 28px;
+    width: 100%;
+    
+    color: $color-terciario-blanco;
+}
+.list3 { 
+    font-size: 28px;
+    width: 100%;
+    color: $color-terciario-blanco;
+}
 }
 
+@media (min-width: 992px) {
+    .contenedor-de-listas {
+        display: flex; 
+        background-color: $color-secundario-negro;
+        text-align: center; 
+    }  
+    .list1 { 
+        width: 100%;
+        margin-right: 50px;
+        color: $color-terciario-blanco;
+    }
+    .list2 { 
+        width: 100%;
+        margin-right: 50px;
+        color: $color-terciario-blanco;
+    }
+    .list3 { 
+        width: 100%;
+        margin-right: 50px;
+        color: $color-terciario-blanco;
+    }
+    }
 
 
 
-.list1 i{
-   font-size: 40px;
-   padding-bottom: 30px;
-   color: $color-primario-verde;
-}
-.list2 i{
-    font-size: 40px;
-    padding-bottom: 30px;
-    color: $color-primario-verde;
- }
- .list3 i{
-    font-size: 40px;
-    padding-bottom: 30px;
-    color: $color-primario-verde;
- }
-  
-
-
-
-.list1 ol{ 
-    list-style: none; 
-     
-}
-.list2 ol{ 
-    list-style: none; 
-      
-}
-.list3 ol{ 
-    list-style: none; 
-      
-}
 
 /* comienzo css agencia*/
 
@@ -360,7 +349,7 @@ padding-top: 2%;
 
 }
    
-@media (max-width: 790px) {
+@media (max-width: 768px) {
 .contenedorform {
 display:block;
     width: 80%;
