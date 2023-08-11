@@ -34,7 +34,7 @@
     
 }
 
-.paratamañogrande:hover{
-    @include img-hover-grande-vuelta;
-    @include img-hover-grande-ida;
+.gogo:hover{
+    filter:brightness(1.3);
+    filter:contrast(1.3);
 }

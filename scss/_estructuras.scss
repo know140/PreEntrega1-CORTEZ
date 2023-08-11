@@ -67,6 +67,10 @@ ul li a:hover{
 
 .contenedor-de-listas{
     background-color: $color-secundario-negro; 
+   
+}
+.contenedor-de-listas h2{
+    color: $color-primario-verde;
 }
 .list1 { 
     width: 100%;
@@ -162,6 +166,8 @@ ul li a:hover{
     font-size: 28px;
     width: 100%;
     color: $color-terciario-blanco;
+    padding-bottom: 50px;
+    margin-bottom: 60px;
 }
 }
 
@@ -170,21 +176,25 @@ ul li a:hover{
         display: flex; 
         background-color: $color-secundario-negro;
         text-align: center; 
+        
+        
     }  
     .list1 { 
+        
         width: 100%;
         margin-right: 50px;
         color: $color-terciario-blanco;
     }
     .list2 { 
         width: 100%;
-        margin-right: 50px;
+        
         color: $color-terciario-blanco;
     }
     .list3 { 
         width: 100%;
-        margin-right: 50px;
+        margin-left: 50px;
         color: $color-terciario-blanco;
+        margin-bottom: 20%;
     }
     }
 
@@ -259,12 +269,12 @@ ul li a:hover{
 }
 .portfoliocontenido img{
     width: 100%;
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 
 @media (max-width: 768){
     .galeriaportfolio{
-        
+        padding-bottom: 50%;
         width: 100%;
         margin: auto;
         display: grid;
